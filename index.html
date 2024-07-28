@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    .wrapper{
+
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    /* margin: auto; */
+    align-items: center;
+    justify-content: center;
+
+    }
+
+    .container{
+
+        width: 80%;
+        height: 80%;
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        }
+
+
+        H3{
+            text-align: center;
+            text-transform: uppercase;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(14, 13, 11);
+            padding-top: 10px;
+
+        }
+
+        .box{
+
+            border-radius: 10px;
+        }
+
+        
+  
+
+    .box-1{
+        width: 100%;
+        height: 10%;
+        background-color: rgb(31, 175, 41);
+        box-shadow: 5px 5px 10px rgb(1, 57, 17);
+
+      
+        
+    }
+
+    .box-2{
+        width: 100%;
+        height: 10%;
+        background-color: rgb(149, 208, 153);
+        box-shadow: 5px 5px 10px rgb(6, 2, 54);
+
+    }
+    .box-3{
+
+        width: 100%;
+        height: 60%;
+        background-color: aquamarine;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+
+    .box-3 > .item-1{
+
+        width: 30%;
+        height: 100%;
+        background-color: darkcyan;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgb(1, 57, 17);
+
+    }
+
+    .box-3 > .item-2{
+
+        width: 65%;
+        height: 100%;
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 10px;
+        
+    }
+
+   
+
+    .box-3 .item-2 .text-1{
+        width: 100%;
+        height: 45%;
+        background-color: deepskyblue;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgb(6, 2, 54);
+
+    }
+
+    .box-3 .item-2 .text-2{
+
+        width: 100%;
+        height: 45%;
+        background-color: cornflowerblue;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgb(6, 2, 54);
+
+    }
+
+    .box-4{
+        width: 100%;
+        height: 10%;
+        background-color: rgb(31, 175, 41);
+        box-shadow: 5px 5px 10px rgb(1, 57, 17);
+
+    }
+    </style>
+
+    <style>
+
+        .wrapper-1{
+
+            width: 100%;
+            height: 100vh;
+            background-color: aquamarine;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+        }
+
+        .container-1{
+
+            width: 80%;
+            height: 80%;
+            background-color: rgb(219, 111, 122);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgb(3, 73, 89);
+
+        }
+
+        .box-5{
+
+            width: 95%;
+            height: 10%;
+            background-color: rgb(62, 138, 135);
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgb(134, 29, 65);
+        }
+        .box-6{
+
+           width: 95%;
+           height: 70%;
+           background-color: rgb(219, 111, 122);
+           display: flex;
+           justify-content: space-between;
+           
+        }
+
+        .box-6 >.item-3{
+
+            width: 25%;
+            height: 100%;
+            background-color: rgb(12, 112, 109);
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgb(134, 29, 65);
+
+        }
+
+        .box-6 >.item-4{
+
+             width: 73%;
+             height: 100%;
+             background-color: rgb(211, 47, 82);
+             display: flex;
+             align-items: end;
+             justify-content: space-evenly;
+             padding-bottom: 10px;
+             border-radius: 10px;
+             box-shadow: 5px 5px 10px rgb(3, 73, 89);
+
+        }
+
+        .box-6 .item-4 .text-3{
+            width: 30%;
+            height: 45%;
+            background-color: rgb(135, 128, 126);
+            border-radius: 10px;
+            /* box-shadow: 5px 5px 10px rgb(3, 73, 89); */
+
+        }
+
+        .box-6 .item-4 .text-4{
+            width: 30%;
+            height: 45%;
+            background-color: rgb(135, 128, 126);
+            border-radius: 10px;
+            /* box-shadow: 5px 5px 10px rgb(3, 73, 89); */
+
+        }
+
+        .box-6 .item-4 .text-5{
+            width: 30%;
+            height: 45%;
+            background-color: rgb(135, 128, 126);
+            border-radius: 10px;
+            /* box-shadow: 5px 5px 10px rgb(3, 73, 89); */
+
+        }
+
+        .box-7{
+
+           width: 95%;
+           height: 10%;
+           background-color: rgb(62, 138, 135);
+           border-radius: 10px;
+           box-shadow: 5px 5px 10px rgb(134, 29, 65);
+
+        }
+
+    </style>
+    
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="box box-1"><h3>Header</h3></div>
+            <div class="box box-2"><h3>Navigation</h3></div>
+            <div class="box box-3">
+                <div class="item item-1"><h3>Aside</h3></div>
+                <div class="item item-2">
+                    <div class="text text-1"><h3>Content</h3></div>
+                    <div class="text text-2"><h3>Section</h3></div>
+                </div>
+            </div>
+            <div class="box box-4"><h3>Footer</h3></div>
+        </div>
+    </div>
+
+</body>
+
+<body> 
+
+<div class="wrapper-1">
+     <div class="container-1">
+        <div class="box-5"><h3>header</h3></div>
+        <div class="box-6">
+            <div class="item-3"><h3>aside</h3></div>
+            <div class="item-4">
+                <div class="text-3"><h3>image</h3></div>
+                <div class="text-4"><h3>image</h3></div>
+                <div class="text-5"><h3>image</h3></div>
+            </div>
+        </div>
+        <div class="box-7"><h3>footer</h3></div>
+     </div>
+</div>
+
+    
+</body>
+</html>
